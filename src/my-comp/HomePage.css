@@ -1,10 +1,60 @@
 div.scroll-container {
-    background-color: #333;
+    background-color:black;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
   }
   
   div.scroll-container img {
-    padding: 10px;
+    padding: 10px;  
+  }
+  .image{
+    border-radius: 0px;
+    transition: border-radius 0.5s;
+  }
+  .image:hover{
+    border-radius: 100px;
+  }
+  .backimage {
+background: url('D:\music-app\public\cover1.jpg');
+background-repeat: no-repeat;
+height: 700px;
+background-size: cover;
+display: flex;
+flex-direction: row;
+}  
+.backimage:hover{
+  box-shadow: 20px black;
+}
+
+  .text2{
+    color: rgb(244, 233, 36);
+    font-size: 60px;
+    /* text-align: center; */
+    /* margin-top: 25px; */
+    padding-top: 200px;
+    padding-left: 100px;
+    width: 40%;
+    
+
+  }
+  .text2:hover{
+    text-decoration: underline;
+  }
+  
+  #buttons{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn{
+    margin: 20px;
+    margin-left: 50px;
+    width: 50%;
+  }
+  #diy-cards{
+    display: flex;
+    flex-direction: row;
   }
