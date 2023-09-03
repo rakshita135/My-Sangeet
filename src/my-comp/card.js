@@ -9,11 +9,14 @@ import Typography from '@mui/material/Typography';
 import SkipPreviousIcon from '@mui/icons-material/SkipPrevious';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
+// import { Grid } from '@mui/material';
 
 export default function MediaCard(props) {
   const theme = useTheme();
 
   return (
+   
+    
     <Card sx={{ display: 'flex' }}>
       <Box sx={{ display: 'flex', flexDirection: 'column' }}>
         <CardContent sx={{ flex: '1 0 auto' }}>
@@ -41,7 +44,8 @@ export default function MediaCard(props) {
         sx={{ width: 151 }}
         image={props.image}
         alt="Live from space album cover"
-      />
+        />
     </Card>
+      
   );
 }

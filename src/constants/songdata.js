@@ -12,14 +12,14 @@ const SongData=[
         singer:'Nobita'
     },
     {
-        id:1,
+        id:3,
         coverimg:'concert3.jpeg',
         songname:'Mai hu Jiyaan',
         singer:'Jiyaan'
     },
     {
-        id:1,
-        coverimg:'cover1.jpg',
+        id:4,
+        coverimg:'concert1.jpeg',
         songname:'Zindagi Sawar Du',
         singer:'Doraemon'
     },

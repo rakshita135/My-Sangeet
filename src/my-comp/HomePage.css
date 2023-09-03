@@ -16,7 +16,7 @@ div.scroll-container {
     border-radius: 100px;
   }
   .backimage {
-background: url('D:\music-app\public\cover1.jpg');
+background: url('D:\music-app\public\concert3.jpeg');
 background-repeat: no-repeat;
 height: 700px;
 background-size: cover;
@@ -54,7 +54,4 @@ flex-direction: row;
     margin-left: 50px;
     width: 50%;
   }
-  #diy-cards{
-    display: flex;
-    flex-direction: row;
-  }
+  
